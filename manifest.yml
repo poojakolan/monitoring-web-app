@@ -1,0 +1,7 @@
+---
+applications:
+- name: monitor-web
+  path: out
+  memory: 256M
+  buildpacks: 
+    - https://github.com/cloudfoundry/staticfile-buildpack.git

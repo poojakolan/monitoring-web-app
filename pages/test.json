@@ -1,0 +1,50 @@
+{
+    "_id": 1,
+    "data": {
+      "data": [
+        {
+          "disk_data": [
+            {
+              "avail_size": "4.0G",
+              "disk_name": "/dev/mapper/ol-root",
+              "mounted_path": "/",
+              "total_size": "5.0G",
+              "used_percent": "21%",
+              "used_size": "1.1G"
+            },
+            {
+              "avail_size": "16G",
+              "disk_name": "devtmpfs",
+              "mounted_path": "/dev",
+              "total_size": "16G",
+              "used_percent": "0%",
+              "used_size": "0"
+            }
+          ],
+          "ip": "192.168.0.1",
+          "top_folders": [
+            {
+              "name": "work",
+              "size": "24G"
+            },
+            {
+              "name": "xxx",
+              "size": "15G"
+            },
+            {
+              "name": "system",
+              "size": "13G"
+            },
+            {
+              "name": "npm-global",
+              "size": "294M"
+            },
+            {
+              "name": "temp",
+              "size": "804K"
+            }
+          ]
+        }
+      ]
+    }
+  }
