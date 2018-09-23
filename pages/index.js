@@ -95,14 +95,12 @@ const Index = (props) => (
 )
 
 Index.getInitialProps = async function() {
-  const res = await fetch('https://api.tvmaze.com/search/shows?q=batman')
+  const res = await fetch('https://monitor-rest.cfapps.io/')
   const data = await res.json()
-  const res2 = await fetch('https://monitor-rest.cfapps.io/')
-  const data2 = await res2.json()
   //console.log(`Show data fetched. Count: ${data.length}`)
 
   return {
-    servers: data2['data']['data']
+    servers: data['data']['data']
   }
 }
 
